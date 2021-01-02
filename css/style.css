@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+
+    height: 100%;
+    background-color: #e8e8e8;
+}
+
+header {
+    top: 0;
+    right: 0;
+    left: 0;
+
+    background-color: #333;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    padding: 3rem;
+}
+
+h1 {
+    padding: 2rem;
+    margin: 0;
+    color: #e8e8e8;
+}
+
+.header-accent {
+    color: #4e83b8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: inherit;
+
+}
+
+main {
+    height: inherit;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+}
